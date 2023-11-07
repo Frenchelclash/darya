@@ -12,7 +12,7 @@ export type ButtonType = PropsWithChildren<{
 export const Button: FC<ButtonType> = ({custom, children, className, resultColor, ...props}) => (
     <button 
     type="button"
-    className={classNames(styles.root, custom && styles.custom, className, resultColor && resultColor === 'green' ? styles.green : styles.red)}
+    className={classNames(styles.root, custom && styles.custom, className, resultColor && (resultColor === 'green' ? styles.green : styles.red))}
     {...props}
     >
     {children}
