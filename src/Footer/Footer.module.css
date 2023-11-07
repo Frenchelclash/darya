@@ -1,0 +1,12 @@
+.root {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--color-blue);
+    color: var(--color-white);
+
+    min-width: 100%;
+
+}

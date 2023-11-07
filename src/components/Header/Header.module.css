@@ -1,0 +1,9 @@
+.root {
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-blue);
+
+    min-width: 100%;
+}
