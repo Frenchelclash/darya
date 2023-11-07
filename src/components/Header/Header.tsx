@@ -10,7 +10,7 @@ export type HeaderType = PropsWithChildren<
 
 export const Header: FC<HeaderType> = ({children, className, ...props}) => (
     <div className={classNames(styles.root, className)} {...props}>
-        <a href="/"><Icon /></a>
+        <a href="/darya/"><Icon /></a>
         {children}
     </div>
 );
